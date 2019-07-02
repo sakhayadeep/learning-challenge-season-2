@@ -23,7 +23,10 @@
 	- Validator check
 
 
-# My Daily learning: (Sample)
+# My Daily learning:
 
 ## July 1
 - I am developing flask project by learning from documentation : http://flask.pocoo.org/docs/0.12/quickstart/
+
+## July 2
+- Added templates and styles to the flask project
