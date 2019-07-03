@@ -30,3 +30,8 @@
 
 ## July 2
 - Added templates and styles to the flask project
+
+## July 3
+- Added login page
+- used Jinja2 documentation : http://jinja.pocoo.org/docs/2.10/
+- registration page coming soon
