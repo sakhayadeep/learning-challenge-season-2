@@ -1,37 +1,9 @@
-# Learning Challenge - Season 2
+# Flask User Login and Authentication
 
-## Learning Topics:
-- Basic Python
-- Advanced Python
-- Flask 
-- SQLite
-- Mysql
-- Docker
-- Kubernetes
+## login and Register page where a user can register with their Email ID and log in with the same Email ID.
 
-## Rules:
-- We will find a learning partner for you
-- Just get to know your learning partner's skills and goals
-- Pick a catchy name for your team and share your team name with us
-- Fork this repository : https://github.com/teamtact/learning-challenge-season-2
-- Pick any 2 topics from above and start learning from online, youtube, articles
-- Document every day learning in a minimum of 3 lines (max: 7 lines)
-- We will 2 times a week by calling you and verify your learning
-- You might get bonus points based on these criteria:
-	- Git commits
-	- Every day documentation
-	- Validator check
+## Register page where user can enter their details like Name, Email ID, Degree etc.
 
+## Store those data in both JSON file and SQLite database.
 
-# My Daily learning:
-
-## July 1
-- I am developing flask project by learning from documentation : http://flask.pocoo.org/docs/0.12/quickstart/
-
-## July 2
-- Added templates and styles to the flask project
-
-## July 3
-- Added login page
-- used Jinja2 documentation : http://jinja.pocoo.org/docs/2.10/
-- registration page coming soon
+## page to display the details entered by the user.(Read data from JSON file)
