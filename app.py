@@ -4,7 +4,6 @@ import os
 from sqlalchemy.orm import sessionmaker
 from tabledef import *
 from insertDb import *
-from writeJson import *
 
 engine = create_engine('sqlite:///userdata.db', echo=True)
  
@@ -63,20 +62,6 @@ def do_register():
     POST_REGISTER = int(request.form['register'])
     POST_AGE = int(request.form['age'])
     POST_CITY = str(request.form['city'])
-
-    data = {}
-    data['users'] = []
-    data['users'].append({
-        'username' : POST_USERNAME,
-        'password' : POST_PASSWORD,
-        'email' : POST_EMAIL,
-        'degree' : POST_DEGREE,
-        'register' : POST_REGISTER,
-        'age' : POST_AGE,
-        'city' : POST_CITY
-    })
-
-    writejson(data, "data.json")
 
     insertDb(POST_USERNAME, POST_PASSWORD, POST_EMAIL, POST_DEGREE, POST_REGISTER, POST_AGE, POST_CITY)
 
